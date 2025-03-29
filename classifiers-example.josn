@@ -1,0 +1,14 @@
+{
+  "classifiers": {
+    "dynamic_classifier": {
+      "pattern": "/x/y/(?P<value>\\w+)",
+      "format": "x-y-{value}",
+      "flags": "IGNORECASE"
+    },
+    "static_classifier": {
+      "pattern": "error occurred",
+      "name": "error_found",
+      "flags": "IGNORECASE"
+    }
+  }
+}
