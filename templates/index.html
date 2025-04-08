@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log Classifier UI</title>
+</head>
+<body>
+    <h1>Log Classifier</h1>
+    <form method="post" action="/ui">
+        <textarea name="text" placeholder="Enter log text here" rows="10" cols="50"></textarea>
+        <br>
+        <button type="submit">Classify</button>
+    </form>
+    {% if result %}
+    <h2>Classification Result:</h2>
+    <pre>{{ result | tojson(indent=2) }}</pre>
+    {% endif %}
+</body>
+</html>
