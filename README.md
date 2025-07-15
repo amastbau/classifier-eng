@@ -15,10 +15,5 @@ This project provides a web service that exposes a single endpoint to classify l
 - [Python 3.9+](https://www.python.org/downloads/)
 - [Docker](https://www.docker.com/get-started) (optional, for containerized deployment)
 
-### Installation
+[Read the Guide](DEPLOYMENT.md)
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/log-classifier-api.git
-   cd log-classifier-api
